@@ -22,4 +22,4 @@ jobs:
     - uses: ncipollo/release-action@v1
       with:
         artifacts: "registry.json,version.txt"
-        tag: "testing"
+        name: "latest"
